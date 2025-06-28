@@ -1,0 +1,76 @@
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_bad.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_bad.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_good.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_good.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-goodG2B.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-goodG2B.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_bad.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_bad.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_good.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_good.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B1.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B1.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B2.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B2.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_bad.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_bad.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_good.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_good.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B1.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B1.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B2.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B2.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_bad.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_bad.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_good.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_good.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B1.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B1.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B2.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B2.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_bad.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_bad.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_good.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_good.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B1.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B1.c-cfgResult.txt
+============================================================================================================
+this is stored path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B2.c-cfgResult.txt
+Error : cfg is null:nodes.size()==0!
+stored in : /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cfg_result/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B2.c-cfgResult.txt
+============================================================================================================

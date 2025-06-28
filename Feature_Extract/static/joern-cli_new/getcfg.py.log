@@ -1,0 +1,494 @@
+2025-06-28 01:53:00,645 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_bad.c -o 1cpgbin.bin-log_text
+2025-06-28 01:53:00,645 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:00,645 - root - INFO - stdout:-log_text
+2025-06-28 01:53:00,645 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_bad.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_bad.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:53:00,645 - root - INFO - stderr:-log_text
+2025-06-28 01:53:00,645 - root - INFO - -log_text
+2025-06-28 01:53:04,421 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:53:04,421 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:04,421 - root - INFO - stdout:-log_text
+2025-06-28 01:53:04,421 - root - INFO - -log_text
+2025-06-28 01:53:04,421 - root - INFO - stderr:-log_text
+2025-06-28 01:53:04,421 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:53:11,655 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_good.c -o 1cpgbin.bin-log_text
+2025-06-28 01:53:11,655 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:11,655 - root - INFO - stdout:-log_text
+2025-06-28 01:53:11,655 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_good.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_01_good.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:53:11,655 - root - INFO - stderr:-log_text
+2025-06-28 01:53:11,655 - root - INFO - -log_text
+2025-06-28 01:53:15,731 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:53:15,731 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:15,731 - root - INFO - stdout:-log_text
+2025-06-28 01:53:15,731 - root - INFO - -log_text
+2025-06-28 01:53:15,731 - root - INFO - stderr:-log_text
+2025-06-28 01:53:15,731 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:53:23,054 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-goodG2B.c -o 1cpgbin.bin-log_text
+2025-06-28 01:53:23,054 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:23,054 - root - INFO - stdout:-log_text
+2025-06-28 01:53:23,054 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-goodG2B.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_01.c-goodG2B.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:53:23,054 - root - INFO - stderr:-log_text
+2025-06-28 01:53:23,054 - root - INFO - -log_text
+2025-06-28 01:53:26,804 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:53:26,804 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:26,804 - root - INFO - stdout:-log_text
+2025-06-28 01:53:26,804 - root - INFO - -log_text
+2025-06-28 01:53:26,805 - root - INFO - stderr:-log_text
+2025-06-28 01:53:26,805 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:53:34,711 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_bad.c -o 1cpgbin.bin-log_text
+2025-06-28 01:53:34,711 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:34,711 - root - INFO - stdout:-log_text
+2025-06-28 01:53:34,711 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_bad.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_bad.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:53:34,711 - root - INFO - stderr:-log_text
+2025-06-28 01:53:34,711 - root - INFO - -log_text
+2025-06-28 01:53:38,641 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:53:38,641 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:38,641 - root - INFO - stdout:-log_text
+2025-06-28 01:53:38,641 - root - INFO - -log_text
+2025-06-28 01:53:38,641 - root - INFO - stderr:-log_text
+2025-06-28 01:53:38,641 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:53:46,254 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_good.c -o 1cpgbin.bin-log_text
+2025-06-28 01:53:46,254 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:46,254 - root - INFO - stdout:-log_text
+2025-06-28 01:53:46,254 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_good.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_02_good.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:53:46,254 - root - INFO - stderr:-log_text
+2025-06-28 01:53:46,254 - root - INFO - -log_text
+2025-06-28 01:53:50,722 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:53:50,722 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:50,723 - root - INFO - stdout:-log_text
+2025-06-28 01:53:50,723 - root - INFO - -log_text
+2025-06-28 01:53:50,723 - root - INFO - stderr:-log_text
+2025-06-28 01:53:50,723 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:53:59,662 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B1.c -o 1cpgbin.bin-log_text
+2025-06-28 01:53:59,662 - root - INFO - returncode: 0-log_text
+2025-06-28 01:53:59,662 - root - INFO - stdout:-log_text
+2025-06-28 01:53:59,662 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B1.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B1.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:53:59,662 - root - INFO - stderr:-log_text
+2025-06-28 01:53:59,662 - root - INFO - -log_text
+2025-06-28 01:54:04,134 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:54:04,134 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:04,135 - root - INFO - stdout:-log_text
+2025-06-28 01:54:04,135 - root - INFO - -log_text
+2025-06-28 01:54:04,135 - root - INFO - stderr:-log_text
+2025-06-28 01:54:04,135 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:54:12,726 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B2.c -o 1cpgbin.bin-log_text
+2025-06-28 01:54:12,726 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:12,726 - root - INFO - stdout:-log_text
+2025-06-28 01:54:12,726 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B2.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_02.c-goodG2B2.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:54:12,726 - root - INFO - stderr:-log_text
+2025-06-28 01:54:12,726 - root - INFO - -log_text
+2025-06-28 01:54:16,428 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:54:16,428 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:16,428 - root - INFO - stdout:-log_text
+2025-06-28 01:54:16,428 - root - INFO - -log_text
+2025-06-28 01:54:16,428 - root - INFO - stderr:-log_text
+2025-06-28 01:54:16,428 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:54:25,519 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_bad.c -o 1cpgbin.bin-log_text
+2025-06-28 01:54:25,520 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:25,520 - root - INFO - stdout:-log_text
+2025-06-28 01:54:25,520 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_bad.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_bad.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:54:25,520 - root - INFO - stderr:-log_text
+2025-06-28 01:54:25,520 - root - INFO - -log_text
+2025-06-28 01:54:29,878 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:54:29,878 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:29,878 - root - INFO - stdout:-log_text
+2025-06-28 01:54:29,878 - root - INFO - -log_text
+2025-06-28 01:54:29,878 - root - INFO - stderr:-log_text
+2025-06-28 01:54:29,878 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:54:38,063 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_good.c -o 1cpgbin.bin-log_text
+2025-06-28 01:54:38,063 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:38,063 - root - INFO - stdout:-log_text
+2025-06-28 01:54:38,064 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_good.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_03_good.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:54:38,064 - root - INFO - stderr:-log_text
+2025-06-28 01:54:38,064 - root - INFO - -log_text
+2025-06-28 01:54:42,511 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:54:42,511 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:42,511 - root - INFO - stdout:-log_text
+2025-06-28 01:54:42,511 - root - INFO - -log_text
+2025-06-28 01:54:42,511 - root - INFO - stderr:-log_text
+2025-06-28 01:54:42,511 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:54:50,886 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B1.c -o 1cpgbin.bin-log_text
+2025-06-28 01:54:50,887 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:50,887 - root - INFO - stdout:-log_text
+2025-06-28 01:54:50,887 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B1.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B1.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:54:50,887 - root - INFO - stderr:-log_text
+2025-06-28 01:54:50,887 - root - INFO - -log_text
+2025-06-28 01:54:55,741 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:54:55,741 - root - INFO - returncode: 0-log_text
+2025-06-28 01:54:55,741 - root - INFO - stdout:-log_text
+2025-06-28 01:54:55,741 - root - INFO - -log_text
+2025-06-28 01:54:55,741 - root - INFO - stderr:-log_text
+2025-06-28 01:54:55,741 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:55:04,288 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B2.c -o 1cpgbin.bin-log_text
+2025-06-28 01:55:04,288 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:04,288 - root - INFO - stdout:-log_text
+2025-06-28 01:55:04,288 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B2.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_03.c-goodG2B2.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:55:04,288 - root - INFO - stderr:-log_text
+2025-06-28 01:55:04,288 - root - INFO - -log_text
+2025-06-28 01:55:08,338 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:55:08,338 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:08,338 - root - INFO - stdout:-log_text
+2025-06-28 01:55:08,338 - root - INFO - -log_text
+2025-06-28 01:55:08,338 - root - INFO - stderr:-log_text
+2025-06-28 01:55:08,338 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:55:17,170 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_bad.c -o 1cpgbin.bin-log_text
+2025-06-28 01:55:17,171 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:17,171 - root - INFO - stdout:-log_text
+2025-06-28 01:55:17,171 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_bad.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_bad.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:55:17,171 - root - INFO - stderr:-log_text
+2025-06-28 01:55:17,171 - root - INFO - -log_text
+2025-06-28 01:55:21,947 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:55:21,948 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:21,948 - root - INFO - stdout:-log_text
+2025-06-28 01:55:21,948 - root - INFO - -log_text
+2025-06-28 01:55:21,948 - root - INFO - stderr:-log_text
+2025-06-28 01:55:21,948 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:55:29,833 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_good.c -o 1cpgbin.bin-log_text
+2025-06-28 01:55:29,833 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:29,834 - root - INFO - stdout:-log_text
+2025-06-28 01:55:29,834 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_good.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_04_good.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:55:29,834 - root - INFO - stderr:-log_text
+2025-06-28 01:55:29,834 - root - INFO - -log_text
+2025-06-28 01:55:34,546 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:55:34,546 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:34,546 - root - INFO - stdout:-log_text
+2025-06-28 01:55:34,546 - root - INFO - -log_text
+2025-06-28 01:55:34,546 - root - INFO - stderr:-log_text
+2025-06-28 01:55:34,546 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:55:43,019 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B1.c -o 1cpgbin.bin-log_text
+2025-06-28 01:55:43,020 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:43,020 - root - INFO - stdout:-log_text
+2025-06-28 01:55:43,020 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B1.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B1.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:55:43,020 - root - INFO - stderr:-log_text
+2025-06-28 01:55:43,020 - root - INFO - -log_text
+2025-06-28 01:55:47,195 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:55:47,195 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:47,195 - root - INFO - stdout:-log_text
+2025-06-28 01:55:47,195 - root - INFO - -log_text
+2025-06-28 01:55:47,195 - root - INFO - stderr:-log_text
+2025-06-28 01:55:47,195 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:55:55,160 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B2.c -o 1cpgbin.bin-log_text
+2025-06-28 01:55:55,160 - root - INFO - returncode: 0-log_text
+2025-06-28 01:55:55,161 - root - INFO - stdout:-log_text
+2025-06-28 01:55:55,161 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B2.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_04.c-goodG2B2.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:55:55,161 - root - INFO - stderr:-log_text
+2025-06-28 01:55:55,161 - root - INFO - -log_text
+2025-06-28 01:56:00,089 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:56:00,090 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:00,090 - root - INFO - stdout:-log_text
+2025-06-28 01:56:00,090 - root - INFO - -log_text
+2025-06-28 01:56:00,090 - root - INFO - stderr:-log_text
+2025-06-28 01:56:00,090 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:56:09,149 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_bad.c -o 1cpgbin.bin-log_text
+2025-06-28 01:56:09,149 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:09,149 - root - INFO - stdout:-log_text
+2025-06-28 01:56:09,149 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_bad.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_bad.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:56:09,149 - root - INFO - stderr:-log_text
+2025-06-28 01:56:09,149 - root - INFO - -log_text
+2025-06-28 01:56:13,381 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:56:13,381 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:13,381 - root - INFO - stdout:-log_text
+2025-06-28 01:56:13,381 - root - INFO - -log_text
+2025-06-28 01:56:13,381 - root - INFO - stderr:-log_text
+2025-06-28 01:56:13,381 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:56:21,092 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_good.c -o 1cpgbin.bin-log_text
+2025-06-28 01:56:21,092 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:21,092 - root - INFO - stdout:-log_text
+2025-06-28 01:56:21,092 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_good.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-CWE15_External_Control_of_System_or_Configuration_Setting__w32_05_good.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:56:21,092 - root - INFO - stderr:-log_text
+2025-06-28 01:56:21,092 - root - INFO - -log_text
+2025-06-28 01:56:24,964 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:56:24,964 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:24,964 - root - INFO - stdout:-log_text
+2025-06-28 01:56:24,964 - root - INFO - -log_text
+2025-06-28 01:56:24,964 - root - INFO - stderr:-log_text
+2025-06-28 01:56:24,964 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:56:33,725 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B1.c -o 1cpgbin.bin-log_text
+2025-06-28 01:56:33,725 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:33,725 - root - INFO - stdout:-log_text
+2025-06-28 01:56:33,725 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B1.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B1.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:56:33,725 - root - INFO - stderr:-log_text
+2025-06-28 01:56:33,725 - root - INFO - -log_text
+2025-06-28 01:56:38,947 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:56:38,948 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:38,948 - root - INFO - stdout:-log_text
+2025-06-28 01:56:38,948 - root - INFO - -log_text
+2025-06-28 01:56:38,948 - root - INFO - stderr:-log_text
+2025-06-28 01:56:38,948 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
+2025-06-28 01:56:47,273 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B2.c -o 1cpgbin.bin-log_text
+2025-06-28 01:56:47,273 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:47,273 - root - INFO - stdout:-log_text
+2025-06-28 01:56:47,274 - root - INFO - Parsing code at: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B2.c - language: `NEWC`
+[+] Running language frontend
+=======================================================================================================
+Invoking CPG generator in a separate process. Note that the new process will consume additional memory.
+If you are importing a large codebase (and/or running into memory issues), please try the following:
+1) exit joern
+2) invoke the frontend: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/c2cpg.sh -J-Xmx7832m /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/output/cut/good/CWE15_External_Control_of_System_or_Configuration_Setting__w32_05.c-goodG2B2.c --output 1cpgbin.bin
+3) start joern, import the cpg: `importCpg("path/to/cpg")`
+=======================================================================================================
+
+[+] Applying default overlays
+Successfully wrote graph to: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin
+To load the graph, type `joern /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/1cpgbin.bin`
+-log_text
+2025-06-28 01:56:47,274 - root - INFO - stderr:-log_text
+2025-06-28 01:56:47,274 - root - INFO - -log_text
+2025-06-28 01:56:52,017 - root - INFO - cmd: ['sh joern', 'loadCpg("1cpgbin.bin")\n', 'cpg.method.filter(_.isExternal == false).dotCfg.l|>"1cfg.txt"\n', 'cpg.method.filter(_.isExternal == false).ast.code.l|>"1astNode.txt"\n']-log_text
+2025-06-28 01:56:52,017 - root - INFO - returncode: 0-log_text
+2025-06-28 01:56:52,017 - root - INFO - stdout:-log_text
+2025-06-28 01:56:52,017 - root - INFO - -log_text
+2025-06-28 01:56:52,017 - root - INFO - stderr:-log_text
+2025-06-28 01:56:52,017 - root - INFO - [34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli_new/(console)[39m
+-log_text
