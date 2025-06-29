@@ -6,8 +6,7 @@ import numpy as np
 After joern processes the c code, use this code;
 0 represents AST, 1 represents CFG, 2 represents PDG
 """
-
-def graphRelation(rootpath,pathdir,tag):
+def graphRelation(rootpath, output_path, tag):
     files = os.listdir(rootpath)
     for file in files:
         nodeRelation = []
@@ -21,28 +20,34 @@ def graphRelation(rootpath,pathdir,tag):
                 node1 = []
                 node2 = []
                 relation = []
-                if (alllist[1] != ""):
+                if alllist[1] == "":
+                    continue
+                else:
+                    # extract base file name + function name
                     filename = alllist[0].split("/")[-1]
-                    num=filename.find(".c")
-                    num=filename.index('.c', num + 1)
-                    filename=filename[0:num]
-                    # add edge
+                    num = filename.index('.c', filename.find('.c') + 1)
+                    filename = filename[:num]
+
+                    # add edge for AST, CFG, PDG
                     nodeRelation.append(alllist[1])
                     nodeRelation.append(alllist[3])
                     nodeRelation.append(alllist[5])
-                    # add node
+                    
+                    # add node: node informations
                     nodeInformation.append(alllist[2])
                     nodeInformation.append(alllist[4])
                     nodeInformation.append(alllist[6])
+
                     # Regular processing
-                    nodeRelation = re.findall(r"\(\d*,\d*,\d*\)", str(nodeRelation))
-                    nodeInformation = re.findall(r"\(\d*,.*?\)", str(nodeInformation))
+                    nodeRelation    = re.findall(r"\(\d*,\d*,\d*\)", str(nodeRelation))
+                    nodeInformation = re.findall(r"\(\d*,.*?\)",     str(nodeInformation))
+
                     # Remove duplicate nodes
                     nodeInformation = list(set(nodeInformation))
 
                     # Extract the contents of each column into list => batch processing
                     nodeRelation = ' '.join(nodeRelation)
-                    b = re.findall('\d+', nodeRelation)
+                    b = re.findall(r'\d+', nodeRelation)
                     for i in range(0, len(b), 3):
                         node1.append(b[i])
                         node2.append(b[i + 1])
@@ -52,13 +57,13 @@ def graphRelation(rootpath,pathdir,tag):
                     nodes = []
                     means = []
                     for i in nodeInformation:
-                        node = re.search('\d+(?=,)', i)
-                        mean = re.search('(?<=,).*', i)
+                        node = re.search(r'\d+(?=,)', i)
+                        mean = re.search(r'(?<=,).*', i)
                         nodes.append(node.group())
                         means.append(mean.group())
                     # feature_matrix = np.vstack([nodes,means]).T
 
-                    # Replace node numbers
+                    # Replace node numbers -> Re-indexing Nodes to 0...N-1
                     new_node1 = []
                     new_node2 = []
                     new_nodes = list(range(0, len(nodes)))
@@ -76,9 +81,9 @@ def graphRelation(rootpath,pathdir,tag):
                                 break
 
                     # write to file
-                    if os.path.exists(pathdir) == False:
-                        os.makedirs(pathdir)
-                    with open(pathdir +"/"+ filename + ".txt", 'w', encoding='utf-8') as f1:
+                    if os.path.exists(output_path) == False:
+                        os.makedirs(output_path)
+                    with open(output_path +"/"+ filename + ".txt", 'w', encoding='utf-8') as f1:
                         for x, y, z in zip(new_node1, new_node2, relation):
                             # for x, y, z in zip(node1, node2, relation):
                             f1.write('(' + x + ',' + y + ',' + z + ')')
@@ -102,10 +107,10 @@ def graphRelation(rootpath,pathdir,tag):
 
 if __name__ == '__main__':
     dataPath = r"raw_result/good"
-    outPath = r"result/good"
+    outPath  = r"result/good"
     # bad or good
     dataTag = 'good'
-    graphRelation(dataPath,outPath,dataTag)
+    graphRelation(dataPath, outPath, dataTag)
     print("joern_relationgood.py over...")
 
 

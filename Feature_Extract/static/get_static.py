@@ -144,42 +144,35 @@ def run_static_feature_extraction(project_path, logDir, log=print):
     log(f"Extracted static feature stored in : {static_dir}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python get_static.py <project_path>")
+    if len(sys.argv) != 3:
+        print("Usage: python get_static.py <project_path> <output_path>")
         sys.exit(1)
 
     # Get the project path from command line arguments
     path = os.path.dirname(os.path.realpath(__file__))
-    project_path =sys.argv[1]
-    output_path = os.path.join(path, "output")
+    project_path = os.path.abspath(sys.argv[1])
+    output_path  = os.path.abspath(sys.argv[2]) #os.path.join(path, "output")
 
-    log(f'project : {project_path}')
+    log(f'Project : {project_path}')
     if not os.path.exists(project_path):
-        log(f"project {project_path} not exist!")
+        log(f"Project {project_path} not exist!")
         sys.exit(1)
 
-    logDir = path+"/log"
+    log(f'Store path : {output_path}')
+    os.makedirs(output_path, exist_ok=True)
+
+    logDir = os.path.join(path, "log")
     if not os.path.exists(logDir):
         os.mkdir(logDir)
-
-    # if os.path.exists(path+"/cut"):
-    #     shutil.rmtree(path+"/cut")
-    # if os.path.exists(path+"/out"):
-    #     shutil.rmtree(path+"/out")
-    # if os.path.exists(path+"/static"):
-    #     shutil.rmtree(path+"/static")
-
-    log("start to get function segmentation... ")
     
     # Classify files in the project directory
-    print("[+] Source path:", project_path)
-    print("[+] Store path:", output_path)
     classify_c_files(project_path, output_path)
 
     # Slice the functions in the classified files
+    log("Start to get function segmentation... ")
     run_java_slice(output_path)
 
-    log("start to get graphRelation by joern... ")
+    log("Start to get graphRelation by joern... ")
     os.chdir(path + "/joern-cli")
 
     if os.path.exists("parse_result"):
@@ -191,15 +184,24 @@ if __name__ == "__main__":
     os.mkdir("parse_result")
     os.mkdir("raw_result")
     os.mkdir("result")
-    os.system("python3 main.py "+ output_path +" 2>main.py.log")
+    # os.system("python3 main.py "+ output_path +" 2>main.py.log")
 
-    run_seven_edges(output_path, logDir)
+    try:
+        subprocess.run(f"python3 main.py {output_path}", shell=True, check=True)
+    except subprocess.CalledProcessError as e:
+        log(f"[Error] Failed to run main.py: {e}")
 
+    log("Start to get seven edges... ")
+    # run_seven_edges(output_path, logDir)
+
+    log("Start to get cfgpath by joern and concate... ")
     run_static_feature_extraction(output_path, logDir)
+
+    print("============================================================================================================")
+    log(f"extracted static feature stored in : {output_path}/static/")
 
     sys.exit(0)
 
-    log("start to get seven edges...")
     os.chdir(path+"/side/src/sevenEdges/")
     os.system("java -classpath "+path+"/side/out/production/side:"+path+"/static_do/side/lib/cdt.core-5.6.0.201402142303.jar:"+path+"/static_do/side/lib/equinox.common-3.6.200.v20130402-1505.jar sevenEdges.Main "+path+" >"+logDir+"/1sevenEdges.Main.log")
     os.system("java -classpath "+path+"/side/out/production/side:"+path+"/static_do/side/lib/cdt.core-5.6.0.201402142303.jar:"+path+"/static_do/side/lib/equinox.common-3.6.200.v20130402-1505.jar sevenEdges.concateJoern "+path+" >"+logDir+"/2sevenEdges.concateJoern.log")

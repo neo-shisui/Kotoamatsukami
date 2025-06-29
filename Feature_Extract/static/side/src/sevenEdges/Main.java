@@ -30,9 +30,9 @@ public class Main {
 //            return;
 //        }
         String spath=args[0];
-        String sourceFilePath = spath+"/cut/good";//切片后函数块存放的地址
+        String sourceFilePath = spath + "/cut/good";//切片后函数块存放的地址
 
-        String storeFilePath = spath+"/static";//提取出七条边后存放的地址
+        String storeFilePath = spath + "/static";//提取出七条边后存放的地址
 
         int batchsize = 40;
         int batchnum_lastrun = 0;
@@ -62,8 +62,6 @@ public class Main {
                 } else {
                     if (!f.isDirectory()) {
                         try {
-
-
                             FileContent fileContent = FileContent.createForExternalFileLocation(f.toString());
                             Map definedSymbols = new HashMap();
                             String[] includePaths = new String[0];

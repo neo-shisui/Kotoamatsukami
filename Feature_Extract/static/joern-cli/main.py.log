@@ -1,53 +1,96 @@
-/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/joern_relationgood.py:45: SyntaxWarning: invalid escape sequence '\d'
-  b = re.findall('\d+', nodeRelation)
-/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/joern_relationgood.py:55: SyntaxWarning: invalid escape sequence '\d'
-  node = re.search('\d+(?=,)', i)
-Traceback (most recent call last):
-  File "/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/joern_relationgood.py", line 3, in <module>
-    import numpy as np
-ModuleNotFoundError: No module named 'numpy'
-hiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 46ms
+2025-06-28 11:20:05,998 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 11:24:10,769 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 11:24:12,797 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 11:24:12,797 - root - INFO - returncode: 0-log_text
+2025-06-28 11:24:12,797 - root - INFO - stdout:-log_text
+2025-06-28 11:24:12,797 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 18ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
-End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 151ms
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 62ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
-End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 25ms
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 11ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
-End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 8ms
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 5ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
-End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 90ms
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 41ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
-End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 24ms
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 15ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
-End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 13ms
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 6ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
-End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 6ms
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 5ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
 Could not find type member. type=struct sockaddr_in, member=sin_port
 Could not find type member. type=struct sockaddr_in, member=sin_addr
 Could not find type member. type=ANY, member=s_addr
 Could not find type member. type=struct sockaddr_in, member=sin_family
-End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 29ms
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 23ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 2ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 29ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 5ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 28ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 16ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 3ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 47ms
+-log_text
+2025-06-28 11:24:12,797 - root - INFO - stderr:-log_text
+2025-06-28 11:24:12,797 - root - INFO - -log_text
+2025-06-28 11:27:57,173 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 11:27:57,173 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 11:27:59,095 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 11:27:59,095 - root - INFO - returncode: 0-log_text
+2025-06-28 11:27:59,095 - root - INFO - stdout:-log_text
+2025-06-28 11:27:59,095 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 19ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 69ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 7ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 3ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 30ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 9ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 2ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 14ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
 End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 1ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
-End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 73ms
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 27ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
-End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 10ms
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 6ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
-End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 81ms
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 30ms
 Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
-End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 42ms
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 18ms
 Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
-End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 9ms
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 5ms
 Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
-End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 133ms
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 46ms
 -log_text
-2025-06-28 01:52:24,427 - root - INFO - stderr:-log_text
-2025-06-28 01:52:24,427 - root - INFO - -log_text
-2025-06-28 01:52:53,839 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
-2025-06-28 01:52:53,840 - root - INFO - returncode: 0-log_text
-2025-06-28 01:52:53,840 - root - INFO - stdout:-log_text
-2025-06-28 01:52:53,840 - root - INFO - 
+2025-06-28 11:27:59,095 - root - INFO - stderr:-log_text
+2025-06-28 11:27:59,095 - root - INFO - -log_text
+2025-06-28 11:27:59,095 - root - INFO - Running joern command...-<module>
+2025-06-28 11:28:11,636 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
+2025-06-28 11:28:11,636 - root - INFO - returncode: 0-log_text
+2025-06-28 11:28:11,636 - root - INFO - stdout:-log_text
+2025-06-28 11:28:11,636 - root - INFO - 
      ██╗ ██████╗ ███████╗██████╗ ███╗   ██╗
      ██║██╔═══██╗██╔════╝██╔══██╗████╗  ██║
      ██║██║   ██║█████╗  ██████╔╝██╔██╗ ██║
@@ -58,7 +101,7 @@ End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPa
 Welcome to ShiftLeft Ocular/Joern
 [9999D[0J[35mjoern> [39mloadCpg([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin"[39m) [9999D[110C[7C
 
-[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@79176fe4)
+[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@378e50b9)
 
 [9999D[0J[35mjoern> [39mcpg.runScript([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc"[39m) [9999D[111C[7C
 
@@ -68,8 +111,569 @@ Welcome to ShiftLeft Ocular/Joern
 [9999D[0J[35mjoern> [39mexit [9999D[4C[7C
 
 -log_text
-2025-06-28 01:52:53,840 - root - INFO - stderr:-log_text
-2025-06-28 01:52:53,840 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+2025-06-28 11:28:11,636 - root - INFO - stderr:-log_text
+2025-06-28 11:28:11,636 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/ArgsPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc[39m
+[34mBye![39m
+-log_text
+2025-06-28 11:28:32,554 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 11:28:32,554 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 11:28:34,684 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 11:28:34,684 - root - INFO - returncode: 0-log_text
+2025-06-28 11:28:34,684 - root - INFO - stdout:-log_text
+2025-06-28 11:28:34,684 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 20ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 78ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 13ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 4ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 48ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 17ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 5ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 3ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 18ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 1ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 30ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 8ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 36ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 26ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 7ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 64ms
+-log_text
+2025-06-28 11:28:34,684 - root - INFO - stderr:-log_text
+2025-06-28 11:28:34,684 - root - INFO - -log_text
+2025-06-28 11:28:34,684 - root - INFO - Running joern command...-<module>
+2025-06-28 11:28:47,516 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
+2025-06-28 11:28:47,516 - root - INFO - returncode: 0-log_text
+2025-06-28 11:28:47,516 - root - INFO - stdout:-log_text
+2025-06-28 11:28:47,516 - root - INFO - 
+     ██╗ ██████╗ ███████╗██████╗ ███╗   ██╗
+     ██║██╔═══██╗██╔════╝██╔══██╗████╗  ██║
+     ██║██║   ██║█████╗  ██████╔╝██╔██╗ ██║
+██   ██║██║   ██║██╔══╝  ██╔══██╗██║╚██╗██║
+╚█████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║
+ ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+      
+Welcome to ShiftLeft Ocular/Joern
+[9999D[0J[35mjoern> [39mloadCpg([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin"[39m) [9999D[110C[7C
+
+[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@16b35f2f)
+
+[9999D[0J[35mjoern> [39mcpg.runScript([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc"[39m) [9999D[111C[7C
+
+45
+[36mres1[39m: [32mAny[39m = ()
+
+[9999D[0J[35mjoern> [39mexit [9999D[4C[7C
+
+-log_text
+2025-06-28 11:28:47,516 - root - INFO - stderr:-log_text
+2025-06-28 11:28:47,516 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/ArgsPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc[39m
+[34mBye![39m
+-log_text
+2025-06-28 11:32:00,709 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 11:32:00,709 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 11:32:02,585 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 11:32:02,585 - root - INFO - returncode: 0-log_text
+2025-06-28 11:32:02,585 - root - INFO - stdout:-log_text
+2025-06-28 11:32:02,586 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 15ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 51ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 3ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 36ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 13ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 5ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 4ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 13ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 1ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 25ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 5ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 28ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 16ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 4ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 53ms
+-log_text
+2025-06-28 11:32:02,586 - root - INFO - stderr:-log_text
+2025-06-28 11:32:02,586 - root - INFO - -log_text
+2025-06-28 11:32:02,586 - root - INFO - Running joern command...-<module>
+2025-06-28 11:32:14,912 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
+2025-06-28 11:32:14,912 - root - INFO - returncode: 0-log_text
+2025-06-28 11:32:14,912 - root - INFO - stdout:-log_text
+2025-06-28 11:32:14,912 - root - INFO - 
+     ██╗ ██████╗ ███████╗██████╗ ███╗   ██╗
+     ██║██╔═══██╗██╔════╝██╔══██╗████╗  ██║
+     ██║██║   ██║█████╗  ██████╔╝██╔██╗ ██║
+██   ██║██║   ██║██╔══╝  ██╔══██╗██║╚██╗██║
+╚█████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║
+ ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+      
+Welcome to ShiftLeft Ocular/Joern
+[9999D[0J[35mjoern> [39mloadCpg([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin"[39m) [9999D[110C[7C
+
+[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@537dc661)
+
+[9999D[0J[35mjoern> [39mcpg.runScript([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc"[39m) [9999D[111C[7C
+
+45
+[36mres1[39m: [32mAny[39m = ()
+
+[9999D[0J[35mjoern> [39mexit [9999D[4C[7C
+
+-log_text
+2025-06-28 11:32:14,912 - root - INFO - stderr:-log_text
+2025-06-28 11:32:14,912 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/ArgsPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc[39m
+[34mBye![39m
+-log_text
+2025-06-28 11:33:29,182 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 11:33:29,182 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 11:33:31,108 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 11:33:31,108 - root - INFO - returncode: 0-log_text
+2025-06-28 11:33:31,108 - root - INFO - stdout:-log_text
+2025-06-28 11:33:31,108 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 15ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 58ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 4ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 37ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 11ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 3ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 16ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 1ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 29ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 4ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 29ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 16ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 4ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 55ms
+-log_text
+2025-06-28 11:33:31,108 - root - INFO - stderr:-log_text
+2025-06-28 11:33:31,108 - root - INFO - -log_text
+2025-06-28 11:33:31,108 - root - INFO - Running joern command...-<module>
+2025-06-28 11:33:43,246 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
+2025-06-28 11:33:43,246 - root - INFO - returncode: 0-log_text
+2025-06-28 11:33:43,246 - root - INFO - stdout:-log_text
+2025-06-28 11:33:43,246 - root - INFO - 
+     ██╗ ██████╗ ███████╗██████╗ ███╗   ██╗
+     ██║██╔═══██╗██╔════╝██╔══██╗████╗  ██║
+     ██║██║   ██║█████╗  ██████╔╝██╔██╗ ██║
+██   ██║██║   ██║██╔══╝  ██╔══██╗██║╚██╗██║
+╚█████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║
+ ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+      
+Welcome to ShiftLeft Ocular/Joern
+[9999D[0J[35mjoern> [39mloadCpg([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin"[39m) [9999D[110C[7C
+
+[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@378e50b9)
+
+[9999D[0J[35mjoern> [39mcpg.runScript([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc"[39m) [9999D[111C[7C
+
+45
+[36mres1[39m: [32mAny[39m = ()
+
+[9999D[0J[35mjoern> [39mexit [9999D[4C[7C
+
+-log_text
+2025-06-28 11:33:43,246 - root - INFO - stderr:-log_text
+2025-06-28 11:33:43,246 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/ArgsPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc[39m
+[34mBye![39m
+-log_text
+2025-06-28 14:25:43,255 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 14:25:43,255 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 14:25:45,231 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 14:25:45,231 - root - INFO - returncode: 0-log_text
+2025-06-28 14:25:45,231 - root - INFO - stdout:-log_text
+2025-06-28 14:25:45,231 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 20ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 84ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 3ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 33ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 15ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 4ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 20ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 2ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 31ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 7ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 29ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 18ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 4ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 52ms
+-log_text
+2025-06-28 14:25:45,231 - root - INFO - stderr:-log_text
+2025-06-28 14:25:45,231 - root - INFO - -log_text
+2025-06-28 14:25:45,231 - root - INFO - Running joern command...-<module>
+2025-06-28 14:25:57,556 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
+2025-06-28 14:25:57,556 - root - INFO - returncode: 0-log_text
+2025-06-28 14:25:57,556 - root - INFO - stdout:-log_text
+2025-06-28 14:25:57,556 - root - INFO - 
+     ██╗ ██████╗ ███████╗██████╗ ███╗   ██╗
+     ██║██╔═══██╗██╔════╝██╔══██╗████╗  ██║
+     ██║██║   ██║█████╗  ██████╔╝██╔██╗ ██║
+██   ██║██║   ██║██╔══╝  ██╔══██╗██║╚██╗██║
+╚█████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║
+ ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+      
+Welcome to ShiftLeft Ocular/Joern
+[9999D[0J[35mjoern> [39mloadCpg([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin"[39m) [9999D[110C[7C
+
+[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@378e50b9)
+
+[9999D[0J[35mjoern> [39mcpg.runScript([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc"[39m) [9999D[111C[7C
+
+45
+[36mres1[39m: [32mAny[39m = ()
+
+[9999D[0J[35mjoern> [39mexit [9999D[4C[7C
+
+-log_text
+2025-06-28 14:25:57,556 - root - INFO - stderr:-log_text
+2025-06-28 14:25:57,556 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/ArgsPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc[39m
+[34mBye![39m
+-log_text
+2025-06-28 14:49:22,761 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 14:49:22,761 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 14:49:24,584 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 14:49:24,584 - root - INFO - returncode: 0-log_text
+2025-06-28 14:49:24,584 - root - INFO - stdout:-log_text
+2025-06-28 14:49:24,584 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 15ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 56ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 3ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 28ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 14ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 7ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 3ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 19ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 1ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 26ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 4ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 29ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 17ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 4ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 49ms
+-log_text
+2025-06-28 14:49:24,584 - root - INFO - stderr:-log_text
+2025-06-28 14:49:24,584 - root - INFO - -log_text
+2025-06-28 14:49:24,584 - root - INFO - Running joern command...-<module>
+2025-06-28 14:49:39,746 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 14:49:39,746 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 14:49:41,771 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 14:49:41,772 - root - INFO - returncode: 0-log_text
+2025-06-28 14:49:41,772 - root - INFO - stdout:-log_text
+2025-06-28 14:49:41,772 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 18ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 69ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 11ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 4ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 49ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 13ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 6ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 5ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 24ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 1ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 32ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 5ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 29ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 18ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 4ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 53ms
+-log_text
+2025-06-28 14:49:41,772 - root - INFO - stderr:-log_text
+2025-06-28 14:49:41,772 - root - INFO - -log_text
+2025-06-28 14:49:41,772 - root - INFO - Running joern command...-<module>
+2025-06-28 14:49:55,189 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
+2025-06-28 14:49:55,189 - root - INFO - returncode: 0-log_text
+2025-06-28 14:49:55,189 - root - INFO - stdout:-log_text
+2025-06-28 14:49:55,189 - root - INFO - 
+     ██╗ ██████╗ ███████╗██████╗ ███╗   ██╗
+     ██║██╔═══██╗██╔════╝██╔══██╗████╗  ██║
+     ██║██║   ██║█████╗  ██████╔╝██╔██╗ ██║
+██   ██║██║   ██║██╔══╝  ██╔══██╗██║╚██╗██║
+╚█████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║
+ ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+      
+Welcome to ShiftLeft Ocular/Joern
+[9999D[0J[35mjoern> [39mloadCpg([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin"[39m) [9999D[110C[7C
+
+[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@164c2914)
+
+[9999D[0J[35mjoern> [39mcpg.runScript([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc"[39m) [9999D[111C[7C
+
+45
+[36mres1[39m: [32mAny[39m = ()
+
+[9999D[0J[35mjoern> [39mexit [9999D[4C[7C
+
+-log_text
+2025-06-28 14:49:55,190 - root - INFO - stderr:-log_text
+2025-06-28 14:49:55,190 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/DefaultPredef.sc[39m
+[34mCompiling (synthetic)/ammonite/predef/ArgsPredef.sc[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/(console)[39m
+[34mCompiling /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc[39m
+[34mBye![39m
+-log_text
+2025-06-28 16:30:57,827 - root - INFO - Project path: /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out-<module>
+2025-06-28 16:30:57,827 - root - INFO - Running joern-parse command...-<module>
+2025-06-28 16:31:01,458 - root - INFO - cmd: sh joern-parse /home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/out/cut/good --out parse_result/good.bin-log_text
+2025-06-28 16:31:01,458 - root - INFO - returncode: 0-log_text
+2025-06-28 16:31:01,458 - root - INFO - stdout:-log_text
+2025-06-28 16:31:01,458 - root - INFO - Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.TypeDeclStubCreator, after 29ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.languagespecific.fuzzyc.MethodStubCreator, after 135ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methoddecorations.MethodDecoratorPass, after 16ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.capturinglinker.CapturingLinker, after 7ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.linker.Linker, after 72ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat
+End of enhancement: io.shiftleft.semanticcpg.passes.compat.bindingtablecompat.BindingTableCompat, after 23ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass
+End of enhancement: io.shiftleft.semanticcpg.passes.BindingMethodOverridesPass, after 11ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.calllinker.CallLinker, after 7ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker
+Could not find type member. type=struct sockaddr_in, member=sin_port
+Could not find type member. type=struct sockaddr_in, member=sin_addr
+Could not find type member. type=ANY, member=s_addr
+Could not find type member. type=struct sockaddr_in, member=sin_family
+End of enhancement: io.shiftleft.semanticcpg.passes.linking.memberaccesslinker.MemberAccessLinker, after 35ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.methodexternaldecorator.MethodExternalDecoratorPass, after 2ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass
+End of enhancement: io.shiftleft.semanticcpg.passes.containsedges.ContainsEdgePass, after 53ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator
+End of enhancement: io.shiftleft.semanticcpg.passes.namespacecreator.NamespaceCreator, after 7ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass
+End of enhancement: io.shiftleft.semanticcpg.passes.cfgdominator.CfgDominatorPass, after 55ms
+Start of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass
+End of enhancement: io.shiftleft.semanticcpg.passes.codepencegraph.CdgPass, after 33ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass
+End of enhancement: io.shiftleft.dataflowengine.passes.propagateedges.PropagateEdgePass, after 11ms
+Start of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass
+End of enhancement: io.shiftleft.dataflowengine.passes.reachingdef.ReachingDefPass, after 92ms
+-log_text
+2025-06-28 16:31:01,458 - root - INFO - stderr:-log_text
+2025-06-28 16:31:01,458 - root - INFO - -log_text
+2025-06-28 16:31:01,458 - root - INFO - Running joern command...-<module>
+2025-06-28 16:31:24,038 - root - INFO - cmd: ['sh', 'joern', 'loadCpg("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin")\n', 'cpg.runScript("/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc")\n']-log_text
+2025-06-28 16:31:24,038 - root - INFO - returncode: 0-log_text
+2025-06-28 16:31:24,038 - root - INFO - stdout:-log_text
+2025-06-28 16:31:24,038 - root - INFO - 
+     ██╗ ██████╗ ███████╗██████╗ ███╗   ██╗
+     ██║██╔═══██╗██╔════╝██╔══██╗████╗  ██║
+     ██║██║   ██║█████╗  ██████╔╝██╔██╗ ██║
+██   ██║██║   ██║██╔══╝  ██╔══██╗██║╚██╗██║
+╚█████╔╝╚██████╔╝███████╗██║  ██║██║ ╚████║
+ ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+      
+Welcome to ShiftLeft Ocular/Joern
+[9999D[0J[35mjoern> [39mloadCpg([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/parse_result/good.bin"[39m) [9999D[110C[7C
+
+[36mres0[39m: [32mOption[39m[[32mCpg[39m] = [33mSome[39m(io.shiftleft.codepropertygraph.Cpg@3ee9eaa7)
+
+[9999D[0J[35mjoern> [39mcpg.runScript([32m"/home/shisui/Documents/THESIS/Kotoamatsukami/Feature_Extract/static/joern-cli/graph/allgood.sc"[39m) [9999D[111C[7C
+
+45
+[36mres1[39m: [32mAny[39m = ()
+
+[9999D[0J[35mjoern> [39mexit [9999D[4C[7C
+
+-log_text
+2025-06-28 16:31:24,038 - root - INFO - stderr:-log_text
+2025-06-28 16:31:24,038 - root - INFO - [34mCompiling (synthetic)/ammonite/predef/interpBridge.sc[39m
 [34mCompiling (synthetic)/ammonite/predef/replBridge.sc[39m
 [34mCompiling (synthetic)/ammonite/predef/sourceBridge.sc[39m
 [34mCompiling (synthetic)/ammonite/predef/frontEndBridge.sc[39m

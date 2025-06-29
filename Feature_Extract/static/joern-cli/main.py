@@ -3,6 +3,8 @@ import os
 import sys
 import logging
 
+from joern_relationgood import *
+
 logging.basicConfig(filename='main.py.log',
                      format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s-%(funcName)s',
                      level=logging.INFO)
@@ -32,8 +34,9 @@ if __name__ == "__main__":
     os.makedirs("parse_result", exist_ok=True)
     os.makedirs("graph", exist_ok=True)
     
-    spath = sys.argv[1]
-    str1 = "sh joern-parse " + sys.argv[1] + "/cut/good" + " --out parse_result/good.bin"
+    # Run the joern-parse command
+    logging.info("Running joern-parse command...")
+    str1 = "sh joern-parse " + project_path + "/cut/good" + " --out parse_result/good.bin"
     s = subprocess.Popen(str1, shell=True,stdout = subprocess.PIPE,
                             stderr = subprocess.PIPE,
                             universal_newlines=True,
@@ -42,8 +45,9 @@ if __name__ == "__main__":
     s.kill()
     log_text(s,str1)
 
+    # Run the joern command with the generated binary
+    logging.info("Running joern command...")
     cmd = ["sh", "joern"]
-
 
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE, encoding="utf-8",
                             stdout = subprocess.PIPE,
@@ -51,10 +55,10 @@ if __name__ == "__main__":
                             universal_newlines=True,
                             bufsize = 1)  
 
-    binPath=os.path.join(os.path.dirname(os.path.realpath(__file__)),"parse_result/good.bin")
-    scPath=os.path.join(os.path.dirname(os.path.realpath(__file__)),"graph/allgood.sc")
-    cmd1="loadCpg(\""+binPath+"\")\n"
-    cmd2="cpg.runScript(\""+scPath+"\")\n"
+    binPath = os.path.join(os.path.dirname(os.path.realpath(__file__)),"parse_result/good.bin")
+    scPath  = os.path.join(os.path.dirname(os.path.realpath(__file__)),"graph/allgood.sc")
+    cmd1    = "loadCpg(\""+binPath+"\")\n"
+    cmd2    = "cpg.runScript(\""+scPath+"\")\n"
     p.stdin.write(cmd1)
     p.stdin.write(cmd2)
     p.stdin.write('exit\n')
@@ -67,13 +71,19 @@ if __name__ == "__main__":
     except:
         p.kill()
 
+    # e = subprocess.Popen("python3 joern_relationgood.py", shell=True)
+    # try:
+    #     e.wait(60)
+    # except:
+    #     e.kill()
+    dataPath = r"raw_result/good"
+    # outPath  = r"result/good"
 
-
-    e = subprocess.Popen("python3 joern_relationgood.py", shell=True)
-    try:
-        e.wait(60)
-    except:
-        e.kill()
+    outPath = os.path.join(project_path, "result/good")
+    # bad or good
+    dataTag = 'good'
+    graphRelation(dataPath, outPath, dataTag)
+    print("joern_relationgood.py over...")
 
 
 
